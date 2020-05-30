@@ -661,6 +661,10 @@ header {
     color: #6D6B85;
     line-height: 2;
     margin-bottom: 0%;
+    @include xsm{
+        width: 96%;
+        font-size: 18px;
+    }
 }
 
 .choose {
@@ -1100,6 +1104,12 @@ header {
     color: #ffffff;
     text-transform: uppercase;
     transition: all 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    @include xsm{
+        width: 60%;
+    }
+    @include sm {
+        width: 60%;
+    }
 
     &:hover {
         opacity: 1;
@@ -1313,6 +1323,9 @@ footer {
     width: 100%;
     height: auto;
     padding: 2% 0%;
+    @include xsm{
+        padding-top: 6%;
+    }
 
     .footer-heading {
         color: #ffffff;
