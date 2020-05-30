@@ -88,6 +88,7 @@ header .navbar {
   header .navbar {
     padding: 5% 4%;
     top: 0;
+    background-color: #EF658C;
   }
 }
 
@@ -147,6 +148,12 @@ header .navbar .navbar-brand .logo {
   font-weight: 100;
   font-size: 28px;
   margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  header .navbar .navbar-brand .logo {
+    color: #ffffff;
+  }
 }
 
 header .navbar .navbar-brand .media-body {
@@ -422,7 +429,7 @@ header .navbar .nav-btn:hover {
 
 @media (max-width: 575.98px) {
   .aloevera {
-    right: 0%;
+    left: -35% !important;
   }
 }
 
@@ -918,6 +925,12 @@ header .navbar .nav-btn:hover {
   padding: 3%;
 }
 
+@media (max-width: 575.98px) {
+  .tabs .custom-tab-content {
+    padding: 0;
+  }
+}
+
 .tabs .custom-tab-content.custom-tab-content1 {
   min-height: auto;
 }
@@ -1026,6 +1039,12 @@ header .navbar .nav-btn:hover {
   -webkit-transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition: all 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .tabs .work-box {
+    width: 145px;
+  }
 }
 
 .tabs .work-box .work-box-img {
@@ -1308,6 +1327,13 @@ header .navbar .nav-btn:hover {
           justify-content: center;
 }
 
+@media (max-width: 575.98px) {
+  .modal-content {
+    width: 280px;
+    height: 280px;
+  }
+}
+
 .modal-content .modal-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1330,6 +1356,12 @@ header .navbar .nav-btn:hover {
   margin-bottom: 7%;
 }
 
+@media (max-width: 575.98px) {
+  .modal-content .modal-body .modal-title {
+    font-size: 18px;
+  }
+}
+
 .modal-content .modal-body .contact-number {
   color: #ffffff;
   font-family: axiforma-SemiBold;
@@ -1338,6 +1370,12 @@ header .navbar .nav-btn:hover {
 
 .modal-content .modal-body .contact-number span {
   color: #EF658C;
+}
+
+@media (max-width: 575.98px) {
+  .modal-content .modal-body .contact-number {
+    font-size: 25px;
+  }
 }
 
 .modal-content .custom-btn {
